@@ -1,0 +1,11 @@
+let jump;
+
+function preload() {
+  jump = loadSound("assets/sounds/jump.wav");
+}
+
+function keyPressed() {
+  if (key === " ") {
+    jump.play();
+  }
+}
