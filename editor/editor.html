@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CodeBugs Editor</title>
+  <link rel="stylesheet" href="editor.css" />
+
+  <!-- Blockly -->
+  <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+
+  <!-- Editor logic -->
+  <script src="editor.js" defer></script>
+</head>
+<body>
+  <h1>CodeBugs Editor</h1>
+
+  <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+
+  <xml id="toolbox" style="display: none">
+    <block type="controls_repeat_ext"></block>
+    <block type="math_number"></block>
+    <block type="text"></block>
+  </xml>
+
+  <button id="run">Run Game</button>
+</body>
+</html>
