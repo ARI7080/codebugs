@@ -1,0 +1,5 @@
+let clickSound;
+
+function preload() {
+  clickSound = loadSound("assets/sounds/click.wav");
+}
