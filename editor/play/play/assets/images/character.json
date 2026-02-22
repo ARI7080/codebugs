@@ -1,0 +1,12 @@
+{
+  "name": "Beetle",
+  "defaultCostume": "beetle_idle.png",
+  "costumes": [
+    "beetle_idle.png",
+    "beetle_walk1.png",
+    "beetle_walk2.png"
+  ],
+  "sounds": [
+    "buzz.wav"
+  ]
+}
