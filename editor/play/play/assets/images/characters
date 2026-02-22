@@ -1,0 +1,29 @@
+characters/
+│
+├── beetle/
+│   ├── costumes/
+│   │   ├── beetle_idle.png
+│   │   ├── beetle_walk1.png
+│   │   ├── beetle_walk2.png
+│   ├── sounds/
+│   │   └── buzz.wav
+│   └── character.json
+│
+├── cat/
+│   ├── costumes/
+│   │   ├── cat_idle.png
+│   │   ├── cat_jump.png
+│   ├── sounds/
+│   │   └── meow.wav
+│   └── character.json
+│
+├── robot/
+│   ├── costumes/
+│   │   ├── robot_idle.png
+│   │   ├── robot_run1.png
+│   │   ├── robot_run2.png
+│   ├── sounds/
+│   │   └── beep.wav
+│   └── character.json
+│
+└── README.md
